@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brincos Pequenos e Brilhantes | Ana Pratas</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .pagina-produto {
+            max-width: 1000px;
+            margin: 60px auto;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 60px;
+        }
+
+        .imagem-produto {
+            width: 380px;
+            max-width: 100%;
+            border-radius: 15px;
+        }
+
+        .informacoes-produto {
+            max-width: 400px;
+        }
+
+        .informacoes-produto h2 {
+            color: #79515a;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .preco-produto {
+            color: #b45f78;
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        .descricao-produto {
+            color: #79515a;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .botao-voltar {
+            display: inline-block;
+            background: #b45f78;
+            color: white;
+            padding: 14px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            margin-top: 15px;
+        }
+
+        @media (max-width: 700px) {
+            .pagina-produto {
+                flex-direction: column;
+                gap: 25px;
+                margin: 25px auto;
+                text-align: center;
+            }
+
+            .imagem-produto {
+                width: 100%;
+                max-width: 380px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <span>✦</span>
+            <h1>ANA PRATAS</h1>
+            <p>BRILHE DO SEU JEITO</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="pagina-produto">
+
+            <img
+                src="imagens/brinco-brilhante.jpg"
+                alt="Brincos Pequenos e Brilhantes"
+                class="imagem-produto"
+            >
+
+            <div class="informacoes-produto">
+
+                <h2>Brincos Pequenos e Brilhantes</h2>
+
+                <p class="preco-produto">R$ 39,90</p>
+
+                <p class="descricao-produto">
+                    Uma joia delicada e charmosa, perfeita para quem
+                    gosta de elegância e brilho em todos os momentos.
+                    Ideal para complementar seu visual.
+                </p>
+
+                <p><strong>Material:</strong> Prata 925*</p>
+
+                <a href="index.html" class="botao-voltar">
+                    VOLTAR À LOJA
+                </a>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <h2>ANA PRATAS</h2>
+        <p>Brilhe do seu jeito.</p>
+        <p>Joias em Prata 925</p>
+        <p>© 2026 Ana Pratas. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulseira Infinito | Ana Pratas</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .pagina-infinito {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            max-width: 1100px;
+            margin: 60px auto;
+            padding: 30px;
+        }
+
+        .pagina-infinito img {
+            width: 100%;
+            max-width: 450px;
+            max-height: 450px;
+            object-fit: contain;
+            border-radius: 15px;
+        }
+
+        .informacoes-infinito {
+            max-width: 450px;
+        }
+
+        .informacoes-infinito h1 {
+            color: #79515a;
+            margin-bottom: 15px;
+        }
+
+        .preco-infinito {
+            color: #9b526b;
+            font-size: 28px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .descricao-infinito {
+            color: #666;
+            line-height: 1.7;
+            margin-bottom: 25px;
+        }
+
+        .botao-voltar {
+            display: inline-block;
+            background: #a85f75;
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .botao-voltar:hover {
+            background: #793d52;
+        }
+
+        @media (max-width: 700px) {
+            .pagina-infinito {
+                flex-direction: column;
+                gap: 20px;
+                margin: 25px auto;
+                padding: 20px;
+            }
+
+            .pagina-infinito img {
+                max-width: 100%;
+                max-height: 350px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Ana Pratas</h1>
+        <p>Brilhe do seu jeito</p>
+    </header>
+
+    <main class="pagina-infinito">
+
+        <img
+            src="imagens/pulseira-infinito.jpg"
+            alt="Pulseira Infinito"
+        >
+
+        <div class="informacoes-infinito">
+            <h1>Pulseira Infinito</h1>
+
+            <p class="preco-infinito">R$ 59,90</p>
+
+            <p class="descricao-infinito">
+                Uma peça delicada e cheia de significado.
+                A Pulseira Infinito é perfeita para complementar
+                seu estilo com elegância e charme.
+            </p>
+
+            <a href="index.html" class="botao-voltar">
+                VOLTAR À LOJA
+            </a>
+        </div>
+
+    </main>
+
+</body>
+</html>
